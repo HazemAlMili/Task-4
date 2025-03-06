@@ -1,4 +1,9 @@
 /* Start Section 1 */
+.landing img {
+    width: 100%;
+    height: 550px;
+}
+
 .landing .icon .home {
     width: 70px;
     height: 70px;
@@ -7,4 +12,70 @@
     color: white;
     padding: 10px;
 }
+
+.landing .links .link {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.landing .links .link {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    transition: 0.3s;
+    padding-top: 40px;
+}
+
+.landing .links .link:hover {
+    color: rgb(211, 23, 36);
+}
+
+.landing .arrow a {
+    animation: arrow-down 1s alternate infinite;
+    font-size: 40px;
+}
+
+@keyframes arrow-down {
+    0% {
+        transform: translateY(0px);
+    }
+
+    20% {
+        transform: translateY(0px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+
+.project h1 {
+    font-size: 70px;
+}
+
+.project .boxs img {
+    transition: 0.4s;
+    opacity: 1;
+    position: relative;
+}
+
+.project .boxs img:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
 /* End Section 1 */
