@@ -2,80 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- BootStrap CSS Files -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
-        rel="stylesheet">
-    <title>Artist Website</title>
-    <link rel="stylesheet" href="project4.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BootStrap CSS Files -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/framework.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
+  <title>Artist Website</title>
+  <link rel="stylesheet" href="project4.css">
 </head>
 
 <body>
-  <!-- circle -->
-  <div class="circle">
-    UA
+  <div class="landing position-relative mb-5 d-flex">
+    <!-- <img class="w-100 mb-5 " src="images/landing.jpg" alt=""> -->
+    <div class="container-fluid p-0 position-relative">
+      <div class="icon">
+        <a class="mt-5 mb-5 d-flex justify-content-center" href="index.html">
+          <div class="home position-absolute d-flex justify-content-center align-items-center fs-1">UA</div>
+        </a>
+      </div>
+      <div class="links mt-5 pt-4 z-1 d-flex justify-content-center">
+        <div class="row ">
+          <div class="col-md-3 col-lg-4">
+            <a class="link" href="index.html">Projects.</a>
+          </div>
+          <div class="col-md-3 col-lg-4">
+            <a class="link" href="index.html">About.</a>
+          </div>
+          <div class="col-md-3 col-lg-4">
+            <a class="link" href="index.html">Contact.</a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow d-flex justify-content-center pt-5">
+        <!-- <p class="fs-4">Urban Adventures - Graffiti Art</p> -->
+        <a class="text-dark position-absolute top-100 pb-5" href="#main">
+          <i class="fa-solid fa-angles-down"></i>
+        </a>
+      </div>
+    </div>
   </div>
-<!-- upper-section -->
-<div class="links">
-</a>
-<ul class="nav">
-    <li class="nav-item" style="margin-right: 0px; margin-left: 440px;"><a href="#" class="nav-link">Projects.</a></li>
-    <li class="nav-item" style="margin-right: 0px; margin-left: 180px;"><a href="#" class="nav-link">about.</a></li>
-    <li class="nav-item" style="margin-right: 0px; margin-left: 180px;"><a href="#" class="nav-link">contact.</a></li>
-</ul>
-</div>
-<!-- main-section -->
- <div class="main">
-  <h1 style=" color: black;  font-family: Verdana, sans-serif; " > Project. 07 </h1>
-    <p>date.</p>
+  <!-- main-section -->
+  <div class="main" id="main">
+    <h1 class="pt-5"> Project. 07 </h1>
+    <p class="mt-4">date.</p>
     <p>2035</p>
     <p>city.</p>
     <p>Zurich</p>
     <p>size.</p>
     <p>mural painting 500m x 500m</p>
- </div>
-<!-- picture-section -->
- <div class="pic">
-  <img src="images/project-7.png"> 
- </div>
-<!-- carousel -->
- <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
+    <img class="w-75" src="images/project-7.png">
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+  <!-- picture-section -->
+  <div class="pic">
+  </div>
+  <!-- carousel -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <!-- BootStrap JS Files -->
-    <script src="js/all.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js.map"></script>
+  <!-- BootStrap JS Files -->
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js.map"></script>
 </body>
 
 </html>
