@@ -17,11 +17,6 @@
 .landing .links .link {
   margin-left: 40px;
   margin-right: 40px;
-}
-
-
-
-.landing .links .link {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -29,6 +24,7 @@
   transition: 0.3s;
   padding-top: 40px;
 }
+
 
 .landing .links .link:hover {
   color: rgb(211, 23, 36);
