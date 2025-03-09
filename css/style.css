@@ -272,13 +272,6 @@ footer {
 
 .slide .left-arrow,
 .slide .right-arrow {
-  background-color: #333;
+  background-color: black;
   border-radius: 50%;
-}
-.slide .left-arrow {
-  background-image: url(/images/left-arrow.png)!important;
-}
-
-.slide .right-arrow {
-  background-image: url(/images/right-arrow.png) !important;
 }
